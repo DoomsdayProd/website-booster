@@ -1,0 +1,151 @@
+.modal-block, .modal-function {
+	display: none;
+	font-family: "Roboto", sans-serif;
+	max-width: 500px !important;
+	background-color: #fff !important;
+	color: #111;
+	box-shadow: 0 0 15px #111;
+}
+
+.modal-function {
+	max-width: 600px !important;
+	background-color: #eeeef2 !important;
+}
+
+.modal-function {
+	padding: 25px !important;
+}
+
+.text-modal {
+	font-size: 15px;
+	margin: 25px 0 !important;
+}
+
+.modal-block input {
+	color: #111;
+	padding-left: 8px;
+	font-size: 14px;
+	border: none;
+	background-color: transparent;
+	border: 1px solid #ccc;
+	transition: .35s;
+}
+
+.modal-block label {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px !important;
+}
+
+.modal-block .form-group:nth-child(2) {
+	margin-top: 15px;
+}
+
+.modal-button {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	padding: 8px 0;
+	background-color: #156BD9;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	transition: .25s;
+	margin-top: 15px;
+}
+
+.modal-button:hover {
+	color: #fff;
+	background-color: #8a09bf;
+}
+
+.modal-block .form-control {
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.modal-block .form-control:focus {
+	box-shadow: none;
+	border-color: #156BD9;
+}
+
+.fancybox-can-swipe .fancybox-content,
+.fancybox-can-swipe .fancybox-content {
+	cursor: default !important;
+}
+
+.promo-button {
+	display: inline;
+	font-size: 14px;
+	color: #646d74 !important;
+	cursor: pointer;
+	transition: .35s;
+}
+
+.promo-button:hover {
+	color: #156BD9 !important;
+	text-decoration: none;
+}
+
+.input-label {
+	margin-top: 5px;
+	font-size: 13px;
+	color: #ff1b1b;
+	display: none;
+}
+
+.header-modal {
+	background-image: url(../img/background-modal.png);
+	background-size: cover;
+	text-align: center;
+	padding: 45px 10px;
+	color: #fff;
+	margin-top: -44px;
+	margin-left: -44px;
+	margin-right: -44px;
+}
+
+.header-modal h4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 10px !important;
+}
+
+.header-modal p {
+	margin-bottom: 0 !important;
+}
+
+.image-modal {
+	max-width: 100%;
+	margin-top: 30px;
+}
+
+.total-text-modal {
+	font-size: 15px;
+	margin: 20px 0 !important;
+}
+
+.total-text-modal span {
+	font-weight: 700;
+}
+
+.modal-function .fancybox-close-small svg {
+	color: #111;
+}
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.good{
+	font-family: 'Rubik One', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: linear-gradient(45deg, #146BDC 33%, #4CAAFF 66%, #5ADDE5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+	display: table;
+	margin: 20px auto;
+}
